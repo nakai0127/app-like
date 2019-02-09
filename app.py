@@ -9,7 +9,7 @@ import datetime
 import pandas as pd
 
 #Webdriver
-browser = webdriver.Chrome(executable_path='/Users/shohei/python/chromedriver') #ここには任意のWebdriverを入れる
+browser = webdriver.Chrome(executable_path='~/environment/chromedriver') #ここには任意のWebdriverを入れる
 basename = datetime.date.today().strftime('%Y%m%d')
 print(basename)
 #URL
